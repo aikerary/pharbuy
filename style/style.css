@@ -155,7 +155,6 @@ main #prevBtn, main #nextBtn{
   cursor: pointer;
 }
 
-/* When disabled show in grey */
 main #prevBtn:disabled, main #nextBtn:disabled{
   background-color: grey;
   color: white;
