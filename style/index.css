@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?fnsb0a");
+  src: url("../fonts/icomoon.eot?fnsb0a#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?fnsb0a") format("truetype"),
+    url("../fonts/icomoon.woff?fnsb0a") format("woff"),
+    url("../fonts/icomoon.svg?fnsb0a#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+:root {
+  --honolulu-blue: #067bc2ff;
+  --scarlet: #ff2e00ff;
+  --chrysler-blue: #5f00baff;
+  --black: #020202ff;
+  --emerald: #16c172ff;
+  --font-family: "Poetsen One", cursive;
+}
+
+* {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: icomoon;
+}
