@@ -122,7 +122,13 @@ main .wrappersearch input:focus{
     outline: none;
 }
 
-main .wrappersearch input:focus + button{
+main .wrappersearch button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
     background-color: var(--honolulu-blue);
     color: var(--black);
+    font-size: 1.5em;
+    cursor: pointer;
 }
