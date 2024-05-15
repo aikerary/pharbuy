@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/logopharbuy.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/index.css">
-    <link rel="stylesheet" href="style/card.css">
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/card.css" />
     <title>PharBuy</title>
   </head>
   <body>
@@ -24,7 +24,13 @@
     </aside>
     <main>
       <div class="wrappersearch">
-        <input type="search" name="search" pattern=".*\S.*" required placeholder="Search">
+        <input
+          type="search"
+          name="search"
+          pattern=".*\S.*"
+          required
+          placeholder="Search"
+        />
         <button class="search-btn" type="submit">
           <span>Search</span>
         </button>
@@ -35,59 +41,66 @@
         speed="1.75"
         color="white"
       ></l-hourglass> -->
-      <section>
-        <card-element 
-        img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE" 
-        title="Card1" 
-        pharmacy="Pharmacy" 
-        price="Price" 
-        link="https://www.google.com">
-    </card-element>
-        <card-element 
-                img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE" 
-                title="Card2" 
-                pharmacy="Pharmacy" 
-                price="Price" 
-                link="https://www.google.com">
-            </card-element>
-        <card-element 
-                img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE" 
-                title="Card3" 
-                pharmacy="Pharmacy" 
-                price="Price" 
-                link="https://www.google.com">
-            </card-element>
-        <card-element 
-                img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE" 
-                title="Card4" 
-                pharmacy="Pharmacy" 
-                price="Price" 
-                link="https://www.google.com">
-            </card-element>
-        <card-element 
-                img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE" 
-                title="Card5" 
-                pharmacy="Pharmacy" 
-                price="Price" 
-                link="https://www.google.com">
-            </card-element>
-        <card-element 
-                img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE" 
-                title="Card6" 
-                pharmacy="Pharmacy" 
-                price="Price" 
-                link="https://www.google.com">
-            </card-element>
-        <card-element 
-                img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE" 
-                title="Card7" 
-                pharmacy="Pharmacy" 
-                price="Price" 
-                link="https://www.google.com">
-            </card-element>
+      <section id="cards">
+        <card-element
+          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
+          title="Card1"
+          pharmacy="Pharmacy"
+          price="Price"
+          link="https://www.google.com"
+        >
+        </card-element>
+        <card-element
+          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
+          title="Card2"
+          pharmacy="Pharmacy"
+          price="Price"
+          link="https://www.google.com"
+        >
+        </card-element>
+        <card-element
+          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
+          title="Card3"
+          pharmacy="Pharmacy"
+          price="Price"
+          link="https://www.google.com"
+        >
+        </card-element>
+        <card-element
+          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
+          title="Card4"
+          pharmacy="Pharmacy"
+          price="Price"
+          link="https://www.google.com"
+        >
+        </card-element>
+        <card-element
+          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
+          title="Card5"
+          pharmacy="Pharmacy"
+          price="Price"
+          link="https://www.google.com"
+        >
+        </card-element>
+        <card-element
+          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
+          title="Card6"
+          pharmacy="Pharmacy"
+          price="Price"
+          link="https://www.google.com"
+        >
+        </card-element>
+        <card-element
+          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
+          title="Card7"
+          pharmacy="Pharmacy"
+          price="Price"
+          link="https://www.google.com"
+        >
+        </card-element>
         <!-- ... -->
       </section>
-    
+
       <div class="pagination">
         <button id="prevBtn" disabled>&lt;</button>
         <span id="pageIndex">1</span>

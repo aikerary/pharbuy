@@ -71,7 +71,7 @@ class CardElement extends HTMLElement {
                 padding: 5px;
                 border: none;
                 border-radius: 5px;
-                background-color: var(--honolulu-blue);
+                background-color: var(--emerald);
                 color: var(--black);
                 cursor: pointer;
             }
