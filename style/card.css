@@ -1,0 +1,10 @@
+card-element{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 2/3;
+    width: 22.7%;
+    margin: 20px;
+}

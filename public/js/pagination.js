@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll(".card");
+const cards = document.querySelectorAll("card-element");
 const cardsPerPage = 5;
 const totalPages = Math.ceil(cards.length / cardsPerPage);
 let currentPage = 1;
