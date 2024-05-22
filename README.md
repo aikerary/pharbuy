@@ -2,6 +2,11 @@
 
 PharBuy es un comparador de precios en línea que te permite encontrar los mejores precios para tus productos de droguería favoritos en las principales tiendas de comercio electrónico en Colombia. Algunas de las tiendas incluidas son Cruz Verde, La Rebaja, Cafam, Farmatodo y otras droguerías.
 
+## Estudiantes
+
+Aiker Ary Acosta Cantillo
+Nicolás Bernal Bernal
+
 ## Características
 
 - **Búsqueda de productos**: Ingresa el nombre del producto que deseas encontrar y nuestro sistema buscará en múltiples tiendas en línea para mostrar las opciones disponibles.
