@@ -1,0 +1,110 @@
+[
+    {
+      "nombre_farmacia": "Cruz Verde",
+      "articulos": [
+        {
+          "nombre": "Diosmit Antidiarreico  Polvo Para Peconstituir Suspensión Oral x 3.76 g (3g de Diosmectita) Sachet x 1 unidad",
+          "precio": "5100",
+          "imagen": "https://beta1.cruzverde.com.co/dw/image/v2/BDPM_PRD/on/demandware.static/-/Sites-masterCatalog_Colombia/default/dw25fdd4db/images/large/116798-1-DIOSMIT-3GR-SOB-POLV-SUSP-ORAL-CAJ-X-6SOB.jpg?sw=295&sh=295",
+          "enlaces": "https://www.cruzverde.com.co/diosmit-antidiarreico- polvo-para-peconstituir-suspension-oral-x-3.76-g-3g-de-diosmectita-sachet-x-1-unidad/COCV_116798.html"
+        },
+        {
+          "nombre": "Buscapina Compuesta Nf Tableta Recubierta (325+10) Mg Caja X 10",
+          "precio": "16511",
+          "imagen": "https://beta1.cruzverde.com.co/dw/image/v2/BDPM_PRD/on/demandware.static/-/Sites-masterCatalog_Colombia/default/dwd84099c7/images/large/157863_1_BUSCAPINA_COMPUESTA_NF_325_10_MG_TAB_REC_CAJ_X_10.jpg?sw=295&sh=295",
+          "enlaces": "https://www.cruzverde.com.co/buscapina-compuesta-nf-tableta-recubierta-32510-mg--caja-x-10/COCV_157863.html"
+        },
+        {
+          "nombre": "Acifree Doble Acción Suspensión Oral Menta (325+500+213)Mg/10mL Frasco X 360mL",
+          "precio": "51975",
+          "imagen": "https://beta1.cruzverde.com.co/dw/image/v2/BDPM_PRD/on/demandware.static/-/Sites-masterCatalog_Colombia/default/dwdc5bd806/images/large/167901-1-ACIFREE-DOBLE-ACCION-325-500-213-MG-10ML-3-25-5-2-SUSP-ORAL-FCO-X-360ML-MENTA.jpg?sw=295&sh=295",
+          "enlaces": "https://www.cruzverde.com.co/acifree-doble-accion-suspension-oral-menta-325500213mg10ml-frasco-x-360ml/COCV_167901.html"
+        }
+      ]
+    },
+    {
+      "nombre_farmacia": "La Rebaja",
+      "articulos": [
+        {
+          "nombre": "ENTEROGERMINA",
+          "precio": "7830",
+          "imagen": "https://copservir.vtexassets.com/arquivos/ids/1278569-300-300?v=638478942051500000&width=300&height=300&aspect=true",
+          "enlaces": "https://www.larebajavirtual.com/enterogermina-47409/p"
+        },
+        {
+          "nombre": "ENTEROGERMINA PLUS",
+          "precio": "70470",
+          "imagen": "https://copservir.vtexassets.com/arquivos/ids/1345533-300-300?v=638520419436900000&width=300&height=300&aspect=true",
+          "enlaces": "https://www.larebajavirtual.com/enterogermina-plus-110323/p"
+        },
+        {
+          "nombre": "ENTEROGERMINA",
+          "precio": "78300",
+          "imagen": "https://copservir.vtexassets.com/arquivos/ids/1278570-300-300?v=638478942111930000&width=300&height=300&aspect=true",
+          "enlaces": "https://www.larebajavirtual.com/kit-enterogermina-47409/p"
+        }
+      ]
+    },
+    {
+      "nombre_farmacia": "Farmatodo",
+      "articulos": [
+        {
+          "nombre": "Probiótico Enterogermina Plus 4000 Esporas De Bacillus Clausi Caja X 5 Viales",
+          "precio": "76300",
+          "imagen": "https://lh3.googleusercontent.com/vZI3pdpCT-FOthKQPDJGubcr1I0gI2FpsmfIDuGDDW-9dEwQjvXnb7kGJJ7Y4uU1pW7CNcOcEqY2DF7oZq32X-vo8kLaJHK0ourgK4-Nw1gP1KOt=s650-rw",
+          "enlaces": "https://www.farmatodo.com.co/producto/1050624-enterogermina-plus-4000-esporas-de-bacillus-clausi-caja-x-5-viales"
+        },
+        {
+          "nombre": "Probiótico Enterogermina Suspensión Oral Sanofi X 10 Frascos",
+          "precio": "77450",
+          "imagen": "https://lh3.googleusercontent.com/7CMGjxWsTbqIwBk9_9p3m_WONgKrvPGeKhPtxe2Kb9VyWObIiyjYxe_oaQoUY9GT0hJtzhBq9tLUFSi3G8gije5Okv3HKeRUoUkPHmdvZd3EqT4=s650-rw",
+          "enlaces": "https://www.farmatodo.com.co/producto/1021284-probiotico-enterogermina-suspension-oral-sanofi-x-10-frascos"
+        },
+        {
+          "nombre": "Enterogermina X 20",
+          "precio": "139900",
+          "imagen": "https://lh3.googleusercontent.com/nsVBt7QMN7Mj73JfrNWywaadPQuSfjVtpu2AjESniP82A4hKf-Ct_5Z-i1v-8BUMU7bG2_CwPChMb9oioJ_Cuh7dC-t8xv8rdTZzL0h0RNYwzVmXfw=s650-rw",
+          "enlaces": "https://www.farmatodo.com.co/producto/298200477-enterogermina-x-20"
+        }
+      ]
+    },
+    {
+      "nombre_farmacia": "Farmacia Torres",
+      "articulos": [
+        {
+          "nombre": "enterogermina plus 4000 millones caja x 5 frascos de 5 ml ampollas bebible",
+          "precio": "74850",
+          "imagen": "https://www.droguerialaeconomia.com/economia/site/img/014068.png",
+          "enlaces": "https://www.farmaciatorres.com/producto/014068"
+        },
+        {
+          "nombre": "enterogermina ampollas bebible caja x 10 unidades",
+          "precio": "75300",
+          "imagen": "https://www.droguerialaeconomia.com/economia/site/img/014063.png",
+          "enlaces": "https://www.farmaciatorres.com/producto/014063"
+        }
+      ]
+    },
+    {
+      "nombre_farmacia": "Farmacias Pasteur",
+      "articulos": [
+        {
+          "nombre": "ENTEROGERMINA AMPOLLAS BEBIBLES",
+          "precio": "72829",
+          "imagen": "https://pasteurio.vtexassets.com/arquivos/ids/198286-300-300?v=638462594698470000&width=300&height=300&aspect=true",
+          "enlaces": "https://www.farmaciaspasteur.com.co/salud-y-medicamentos-gastritis-y-antiacidos-antidiarreicos--probioticos-y-dig-enterogermina-ampollas-bebibles-137175/p"
+        },
+        {
+          "nombre": "ENTEROGERMINA PLUS AMPOLLAS BEBIBLES",
+          "precio": "76662",
+          "imagen": "https://pasteurio.vtexassets.com/arquivos/ids/188191-300-300?v=638462599321230000&width=300&height=300&aspect=true",
+          "enlaces": "https://www.farmaciaspasteur.com.co/salud-y-medicamentos-gastritis-y-antiacidos-antidiarreicos--probioticos-y-dig-enterogermina-plus-ampollas-bebibles-377184/p?skuId=15929"
+        },
+        {
+          "nombre": "ENTEROGERMINA CAPSULAS",
+          "imagen": "https://pasteurio.vtexassets.com/arquivos/ids/174419-300-300?v=638517110072270000&width=300&height=300&aspect=true",
+          "enlaces": "https://www.farmaciaspasteur.com.co/salud-y-medicamentos-gastritis-y-antiacidos-antidiarreicos--probioticos-y-dig-enterogermina-capsulas-137173/p"
+        }
+      ]
+    }
+  ]

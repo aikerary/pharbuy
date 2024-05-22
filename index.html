@@ -14,90 +14,21 @@
       <h1>harBuy</h1>
     </header>
     <aside>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <h2>Filtros</h2>
+      <button id="sortAsc" class="filterButton">Ordenar de Menor a Mayor</button>
+      <button id="sortDesc" class="filterButton">Ordenar de Mayor a Menor</button>
     </aside>
     <main>
       <div class="wrappersearch">
-        <input
-          type="search"
-          name="search"
-          pattern=".*\S.*"
-          required
-          placeholder="Search"
-        />
+        <input type="search" name="search" id="searchInput" placeholder="Search" />
         <button class="search-btn" type="submit">
           <span>Search</span>
         </button>
       </div>
-      <!-- <l-hourglass
-        size="200"
-        bg-opacity="0.1"
-        speed="1.75"
-        color="white"
-      ></l-hourglass> -->
+      <div id="loader" style="display: none;">
+        <l-hourglass size="200" bg-opacity="0.1" speed="1.75" color="white"></l-hourglass>
+      </div>
       <section id="cards">
-        <card-element
-          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
-          title="Card1"
-          pharmacy="Pharmacy"
-          price="Price"
-          link="https://www.google.com"
-        >
-        </card-element>
-        <card-element
-          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
-          title="Card2"
-          pharmacy="Pharmacy"
-          price="Price"
-          link="https://www.google.com"
-        >
-        </card-element>
-        <card-element
-          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
-          title="Card3"
-          pharmacy="Pharmacy"
-          price="Price"
-          link="https://www.google.com"
-        >
-        </card-element>
-        <card-element
-          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
-          title="Card4"
-          pharmacy="Pharmacy"
-          price="Price"
-          link="https://www.google.com"
-        >
-        </card-element>
-        <card-element
-          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
-          title="Card5"
-          pharmacy="Pharmacy"
-          price="Price"
-          link="https://www.google.com"
-        >
-        </card-element>
-        <card-element
-          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
-          title="Card6"
-          pharmacy="Pharmacy"
-          price="Price"
-          link="https://www.google.com"
-        >
-        </card-element>
-        <card-element
-          img-src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9D44cRlAGg0lzcr1Fk-mjzzRbRn9Aga-VDMXUrhS-d_Q-lOW7ZgfBpy3kSlI6LCv_d4mBpq647Y3WGjkrAGtAPQI6rL8PAsBQVody6IMusWjXKhmd5YOEEw&usqp=CAE"
-          title="Card7"
-          pharmacy="Pharmacy"
-          price="Price"
-          link="https://www.google.com"
-        >
-        </card-element>
         <!-- ... -->
       </section>
 
