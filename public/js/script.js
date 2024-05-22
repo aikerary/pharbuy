@@ -2,6 +2,8 @@ const searchInput = document.getElementById('searchInput');
 const cardsSection = document.getElementById('cards');
 const loader = document.getElementById('loader');
 const searchBtn = document.querySelector('.search-btn');
+const sortAsc= document.getElementById('sortAsc');
+const sortDesc= document.getElementById('sortDesc');
 let currentResults = [];
 
 searchBtn.addEventListener('click', handleSearch);
@@ -93,3 +95,16 @@ function updatePagination(totalResults, currentPage) {
   nextBtn.disabled = currentPage === totalPages;
   pageIndex.textContent = currentPage;
 }
+
+// Function for sort ascending order by price
+
+sortAsc.addEventListener('click', () => {
+  currentResults.sort((a, b) => a.precio - b.precio);
+  displayResults(currentResults, 1);
+});
+
+// Function for sort descending order by price
+sortDesc.addEventListener('click', () => {
+  currentResults.sort((a, b) => b.precio - a.precio);
+  displayResults(currentResults, 1);
+});
