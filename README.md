@@ -4,8 +4,8 @@ PharBuy es un comparador de precios en línea que te permite encontrar los mejor
 
 ## Estudiantes
 
-Aiker Ary Acosta Cantillo
-Nicolás Bernal Bernal
+- Aiker Ary Acosta Cantillo
+- Nicolás Bernal Bernal
 
 ## Características
 
